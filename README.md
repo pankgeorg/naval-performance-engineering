@@ -27,3 +27,5 @@
 | 8404 | Τεχνική αξιολόγηση των επιδόσεων της αποδοτικότητας του πλοίου          | Παρασκευή | 18:00–19:30 | Ν. Θεμελής, Γ. Δημόπουλος, Δ. Κονοβέσης                      |
 
 _Ώρες Ελλάδος_
+
+All the notes and dyad or julia code in this repository are licensed with the AGPL. If that doesn't fit your purposes please contact [JuliaHub Inc](sales@juliahub.com) for purchasing a dyad license and request more details.
