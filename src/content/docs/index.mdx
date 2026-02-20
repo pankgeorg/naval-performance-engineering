@@ -5,46 +5,39 @@ template: splash
 hero:
   tagline: Course notes for ΠΜΣ-ΑΔΕΠ at NTUA School of Naval Architecture & Marine Engineering
   actions:
-    - text: First Note
-      link: /naval-performance-engineering/notes/welcome-ceremony-2026-02-20/
+    - text: Μαθήματα
+      link: /notes/8400/
       icon: right-arrow
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
+import { LinkCard, CardGrid } from "@astrojs/starlight/components";
 
-## About the Program
+## Μαθήματα Εαρινού Εξαμήνου 2026/2027
 
-ΠΜΣ-ΑΔΕΠ (Postgraduate Program in Ship Performance Analysis and Management) is a graduate program
-at the **National Technical University of Athens (NTUA)**, School of Naval Architecture and Marine Engineering.
-
-The 2026/2027 academic year covers seven core topic areas:
-
-<CardGrid stagger>
-  <Card title="Ship Resistance & Propulsion" icon="rocket">
-    Hydrodynamic resistance, propeller theory, powering calculations, and
-    sea-trial analysis.
-  </Card>
-  <Card title="Ship Manoeuvring" icon="random">
-    Equations of motion, manoeuvring criteria, simulation, and full-scale
-    trials.
-  </Card>
-  <Card title="Energy Efficiency" icon="sun">
-    EEDI/EEXI/CII regulations, energy audits, hull & propeller optimization, and
-    waste-heat recovery.
-  </Card>
-  <Card title="Condition Monitoring" icon="magnifier">
-    Hull fouling, propeller degradation, performance indicators, and voyage data
-    analysis.
-  </Card>
-  <Card title="Weather Routing" icon="information">
-    Metocean data, seakeeping in waves, route optimization, and speed–power
-    relationships.
-  </Card>
-  <Card title="Fleet Management & Analytics" icon="bars">
-    Noon reports, KPIs, data pipelines, and fleet benchmarking methodologies.
-  </Card>
-  <Card title="Regulations & Decarbonization" icon="approve-check">
-    IMO strategy, alternative fuels, Carbon Intensity Indicator compliance, and
-    FuelEU Maritime.
-  </Card>
+<CardGrid>
+  <LinkCard
+    title="8400 — Αντίσταση και Πρόωση Πλοίου"
+    href="/notes/8400/"
+    description="Υδροδυναμική αντίσταση, θεωρία έλικα, υπολογισμοί ισχύος, ανάλυση sea trial. Πέμπτη 15:30–17:00."
+  />
+  <LinkCard
+    title="8401 — Βελτίωση Υδροδυναμικής & Αεροδυναμικής Απόδοσης"
+    href="/notes/8401/"
+    description="Διατάξεις βελτίωσης απόδοσης πλοίου (ESD), αεροδυναμική επιρροή. Παρασκευή 16:15–17:45."
+  />
+  <LinkCard
+    title="8402 — Κανονιστικό Πλαίσιο Απανθρακοποίησης"
+    href="/notes/8402/"
+    description="EEDI/EEXI/CII, FuelEU Maritime, ανάλυση κύκλου ζωής, νομοθεσία IMO. Πέμπτη 19:00–20:30."
+  />
+  <LinkCard
+    title="8403 — Ανάλυση Δεδομένων & Μηχανική Μάθηση"
+    href="/notes/8403/"
+    description="Επεξεργασία δεδομένων πλοίου, ML μοντέλα στην ανάλυση επιδόσεων. Πέμπτη 17:15–18:45."
+  />
+  <LinkCard
+    title="8404 — Τεχνική Αξιολόγηση Επιδόσεων"
+    href="/notes/8404/"
+    description="KPIs απόδοσης, noon reports, αξιολόγηση αποδοτικότητας πλοίου. Παρασκευή 18:00–19:30."
+  />
 </CardGrid>
